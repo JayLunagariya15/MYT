@@ -685,7 +685,7 @@ h6 {
   padding-bottom: 25px;
   background-color: #111111;
   color: #ffffff;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 10%);
 }
 
 .footer .copyright p {
