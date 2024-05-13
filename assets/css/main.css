@@ -485,6 +485,8 @@ h6 {
 
 .footer .footer-top {
   padding-top: 50px;
+  color: #ffffff;
+  background-color: #111111;
 }
 
 .footer .footer-about .logo {
@@ -494,6 +496,7 @@ h6 {
 
 .footer .footer-about .logo img {
   max-height: 40px;
+  
   margin-right: 6px;
 }
 
@@ -522,6 +525,7 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-right: 10px;
   transition: 0.3s;
+  color: #ffffff;
 }
 
 .footer .social-links a:hover {
@@ -533,11 +537,13 @@ h6 {
   font-size: 16px;
   font-weight: bold;
   position: relative;
+  color: #ffffff;
   padding-bottom: 12px;
 }
 
 .footer .footer-links {
   margin-bottom: 30px;
+  
 }
 
 .footer .footer-links ul {
@@ -560,11 +566,13 @@ h6 {
 
 .footer .footer-links ul li:first-child {
   padding-top: 0;
+  
 }
 
 .footer .footer-links ul a {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   display: inline-block;
+  color: #ffffff;
   line-height: 1;
 }
 
@@ -574,6 +582,7 @@ h6 {
 
 .footer .footer-contact p {
   margin-bottom: 5px;
+  
 }
 
 .footer .footer-newsletter .newsletter-form {
@@ -673,16 +682,23 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: #111111;
+  color: #ffffff;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .copyright p {
   margin-bottom: 0;
+  color: #ffffff;
+  background-color: #111111
 }
 
 .footer .credits {
   margin-top: 6px;
+  background-color: #111111;
+  color: #ffffff;
   font-size: 13px;
+  
 }
 
 /*--------------------------------------------------------------
