@@ -910,6 +910,15 @@ section,
   z-index: 2;
 }
 
+.containerr{
+  position: relative;
+    top: 40px;
+    background-color: #2A4D6F;
+    color: white;
+    height: 557px;
+    width: 1920px;
+}
+
 .hero .container {
   position: relative;
   z-index: 3;
