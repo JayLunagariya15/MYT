@@ -29,7 +29,8 @@
   --heading-color: #3e5055;
 
   /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
-  --accent-color: #388da8;
+  --accent-color:  #2873BD;
+  ;
 
   /* Contrast Color - This is a color used for text when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors. */
   --contrast-color: #ffffff;
@@ -128,7 +129,8 @@ h6 {
 .loginbutton{
   color: #0C0C0C;
   font-size: 18px;
-  font-weight: 500px;
+  font-weight: 550;
+  line-height: 22.95px;
 }
 
 .header .btn-getstarted,
@@ -136,7 +138,7 @@ h6 {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 14px;
-  padding: 8px 25px;
+  padding: 12px 38px;
   margin: 0 0 0 30px;
   border-radius: 10px;
   transition: 0.3s;
@@ -207,7 +209,7 @@ h6 {
     padding: 18px 15px;
     font-size: 18px;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 550;
     line-height: 22.95px;
     display: flex;
     align-items: center;
@@ -263,7 +265,15 @@ h6 {
 
   .navmenu .dropdown ul a i {
     font-size: 12px;
+    
   }
+  .bi-chevron-down {
+    color: #0C0C0C;
+    font-weight: bold;
+    /* height: 24px;
+    width: 24px; */
+    /* font-weight:900px ; */
+}
 
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
