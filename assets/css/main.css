@@ -1465,6 +1465,13 @@ background-color: #ffffff;
   width: 420px;
   border-radius: 15px;
 }
+.pricing .pricing-item-one h2{
+  color: #0C0C0C;
+}
+.pricing .pricing-item-three h2{
+  color: #0C0C0C;
+}
+
 .pricing .pricing-item-two {
 background-color: #0B0B0B;
   font-weight: 600;
@@ -1482,6 +1489,7 @@ background-color: #0B0B0B;
   width: 420px;
   border-radius: 15px;
 }
+
 
 .pricing h3 {
   font-weight: 600;
@@ -1570,7 +1578,6 @@ background-color: #0B0B0B;
   padding: 10px 0;
   display: flex;
   color: #3B3C45;
-  ;
   align-items: center;
 }
 
@@ -1579,9 +1586,13 @@ background-color: #0B0B0B;
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #0C0C0C;
   font-size: 24px;
   padding-right: 3px;
+}
+
+.pricing .pricing-item-two ul i{
+  color: #FFFFFF;
 }
 
 .pricing ul .na {
@@ -1592,8 +1603,13 @@ background-color: #0B0B0B;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
 }
 
-.pricing ul .na span {
+.pricing .pricing-item-one .na span {
   text-decoration: line-through;
+color: #0C0C0C;
+}
+
+.pricing .pricing-item-two ul li{
+  color: #FFFFFF;
 }
 
 .pricing .featured {
