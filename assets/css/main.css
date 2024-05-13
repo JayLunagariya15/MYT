@@ -495,8 +495,8 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
-  width: 49.22px;
+  max-height: 36px;
+  max-width: 49.22px;
   margin-right: 6px;
 }
 
@@ -509,7 +509,7 @@ h6 {
 }
 
 .footer .footer-about p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: var(--heading-font);
 }
 
@@ -517,15 +517,16 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-right: 10px;
   transition: 0.3s;
-  color: #F1F2F4;
+  color: #0C0C0C;
+  background-color: #ffffff;
 }
 
 /* .footer .social-links a:hover {
@@ -573,6 +574,8 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   display: inline-block;
   color: #F1F2F4;
+  opacity: 50%;
+  font-size: 16px;
   line-height: 1;
 }
 
