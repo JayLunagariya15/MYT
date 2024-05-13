@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Nunito", sans-serif;
-  --nav-font: "Inter", sans-serif;
+  --default-font:  "Onest", sans-serif, "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Onest", sans-serif;
+  --nav-font: "Onest", sans-serif;
 }
 
 /* Global Colors */
@@ -38,7 +38,8 @@
 /* Nav Menu Colors */
 :root {
   /* Nav Color - This is the default color of the main navmenu links. */
-  --nav-color: #313336;
+  --nav-color: #0C0C0C;
+  ;
 
   /* Nav Hover Color - This color is applied to main navmenu links when they are hovered over. */
   --nav-hover-color: #77b6ca;
@@ -124,6 +125,12 @@ h6 {
   }
 }
 
+.loginbutton{
+  color: #0C0C0C;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
@@ -198,9 +205,10 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 22.95px;
     display: flex;
     align-items: center;
     justify-content: space-between;
