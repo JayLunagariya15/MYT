@@ -840,7 +840,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  /* padding: 60px 0; */
   scroll-margin-top: 100px;
   overflow: clip;
 }
@@ -923,8 +923,20 @@ section,
     top: 40px;
     background-color: #2A4D6F;
     color: white;
-    height: 557px;
+    height: 597px;
     width: 1920px;
+}
+
+.hero-section{
+  display: flex;
+  position: relative;
+  top: 150px;
+   --bs-gutter-x: 1.5rem;
+   --bs-gutter-y: 0; 
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)*S .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  
 }
 
 .hero .container {
@@ -1084,7 +1096,20 @@ section,
   padding-bottom: 20px;
 }
 
-.about .content .who-we-are {
+.content{
+  width: 657px;
+  height: 335px;
+  margin-right: auto;
+    margin-left: 70px;
+
+  /* position: relative; */
+  /* left: 300px; */
+  /* margin-left: 70px; */
+  padding-left: 12px;
+  
+}
+
+ .content .who-we-are {
   text-transform: uppercase;
   margin-bottom: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
