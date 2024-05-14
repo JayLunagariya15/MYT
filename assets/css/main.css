@@ -662,6 +662,8 @@ h6 {
   margin-top: 10px;
 }
 
+
+
 .footer .footer-newsletter .loading:before {
   content: "";
   display: inline-block;
@@ -689,7 +691,7 @@ h6 {
   padding-bottom: 25px;
   background-color: #111111;
   color: #ffffff;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 10%);
+  border-top: 2px solid color-mix(in srgb, var(--default-color), transparent 10%);
 }
 
 .footer .copyright p {
@@ -707,6 +709,10 @@ h6 {
   font-size: 18px;
   text-align: right;
   opacity: 30%;
+}
+
+.footer .credits a {
+  color: #FFFFFF;
 }
 
 /*--------------------------------------------------------------
@@ -870,7 +876,7 @@ section,
   position: relative;
 }
 
-.section-title h2:after {
+/* .section-title h2:after {
   content: "";
   position: absolute;
   display: block;
@@ -881,10 +887,11 @@ section,
   right: 0;
   bottom: 0;
   margin: auto;
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
+  margin-top: -20px;
 }
 
 /*--------------------------------------------------------------
@@ -918,25 +925,25 @@ section,
   z-index: 2;
 }
 
-.containerr{
+.containerr {
   position: relative;
-    top: 40px;
-    background-color: #2A4D6F;
-    color: white;
-    height: 597px;
-    width: 1920px;
+  top: 40px;
+  background-color: #2A4D6F;
+  color: white;
+  height: 597px;
+  width: 1920px;
 }
 
-.hero-section{
+.hero-section {
   display: flex;
   position: relative;
   top: 150px;
-   --bs-gutter-x: 1.5rem;
-   --bs-gutter-y: 0; 
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x)*S .5);
   padding-left: calc(var(--bs-gutter-x)* .5);
-  
+
 }
 
 .hero .container {
@@ -1096,20 +1103,20 @@ section,
   padding-bottom: 20px;
 }
 
-.content{
+.content {
   width: 657px;
   height: 335px;
   margin-right: auto;
-    margin-left: 70px;
+  margin-left: 70px;
 
   /* position: relative; */
   /* left: 300px; */
   /* margin-left: 70px; */
   padding-left: 12px;
-  
+
 }
 
- .content .who-we-are {
+.content .who-we-are {
   text-transform: uppercase;
   margin-bottom: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
@@ -1485,41 +1492,52 @@ section,
   background-color: #2a4d6f;
   color: #FFFFFF;
   font-size: 18px;
+  padding: 130px 300px 150px 0px;
 }
-.pricing h2{
+
+.pricing h2 {
   color: #FFFFFF;
   font-size: 34px;
 }
+
 .pricing .pricing-item-one {
-background-color: #ffffff;
+  background-color: #ffffff;
   padding: 40px 40px;
   color: #0C0C0C;
   font-weight: 600;
-  height:525px ;
+  height: 525px;
   width: 420px;
   border-radius: 15px;
 }
-.pricing .pricing-item-one h2{
+
+.pricing .pricing-item-one h2 {
   color: #0C0C0C;
+  ;
 }
-.pricing .pricing-item-three h2{
+
+.pricing .pricing-item-three h2 {
   color: #0C0C0C;
 }
 
 .pricing .pricing-item-two {
-background-color: #0B0B0B;
+  background-color: #0B0B0B;
   font-weight: 600;
   padding: 40px 40px;
-  height:525px ;
+  height: 525px;
   width: 420px;
   border-radius: 15px;
 }
+
+.pricing .pricing-item-two h4 {
+color: #FFFFFF;
+}
+
 .pricing .pricing-item-three {
   background-color: #ffffff;
   padding: 40px 40px;
   color: #0C0C0C;
   font-weight: 600;
-  height:525px ;
+  height: 525px;
   width: 420px;
   border-radius: 15px;
 }
@@ -1537,7 +1555,8 @@ background-color: #0B0B0B;
   font-weight: 700;
   color: #0C0C0C;
   font-family: var(--heading-font);
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .pricing h4 sup {
@@ -1556,6 +1575,7 @@ background-color: #0B0B0B;
   color: #3B3C45;
   ;
 }
+
 .pricing .description-two {
   font-size: 18px;
   font-weight: 400;
@@ -1568,7 +1588,6 @@ background-color: #0B0B0B;
   color: var(--contrast-color);
   display: block;
   background: #2873BD;
-  ;
   text-align: center;
   padding: 10px 35px;
   border-radius: 5px;
@@ -1576,9 +1595,10 @@ background-color: #0B0B0B;
   font-weight: 500;
   font-family: var(--heading-font);
   transition: 0.3s;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 6px;
 }
+
 .pricing .cta-btn-two {
   color: #0C0C0C;
   display: block;
@@ -1591,7 +1611,7 @@ background-color: #0B0B0B;
   font-weight: 500;
   font-family: var(--heading-font);
   transition: 0.3s;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 6px;
 }
 
@@ -1613,6 +1633,7 @@ background-color: #0B0B0B;
   display: flex;
   color: #3B3C45;
   align-items: center;
+  font-size: 16px;
 }
 
 .pricing ul li:last-child {
@@ -1625,7 +1646,7 @@ background-color: #0B0B0B;
   padding-right: 3px;
 }
 
-.pricing .pricing-item-two ul i{
+.pricing .pricing-item-two ul i {
   color: #FFFFFF;
 }
 
@@ -1639,10 +1660,10 @@ background-color: #0B0B0B;
 
 .pricing .pricing-item-one .na span {
   text-decoration: line-through;
-color: #0C0C0C;
+  color: #0C0C0C;
 }
 
-.pricing .pricing-item-two ul li{
+.pricing .pricing-item-two ul li {
   color: #FFFFFF;
 }
 
