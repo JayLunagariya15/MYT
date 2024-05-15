@@ -924,7 +924,12 @@ section,
   inset: 0;
   z-index: 2;
 }
-
+.imaging img{
+  width: 530px;
+  height: 470px;
+  border-radius: 20px;
+  border: 1px;
+}
 .containerr {
   position: relative;
   top: 40px;
