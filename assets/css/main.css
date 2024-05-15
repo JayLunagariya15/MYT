@@ -2226,3 +2226,52 @@ color: #FFFFFF;
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+
+
+.custom-card {
+  width: 380px;
+  height: 435px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+
+
+
+.custom-card-two {
+  width: 380px;
+  height: 335px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+.custom-card-three {
+  width: 380px;
+  height: 790px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+.custom-card-foure {
+  width: 380px;
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+
+.custom-card-five {
+  width: 380px;
+  height: 470px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
