@@ -1086,7 +1086,6 @@ height: 200px;
 }
 .containerr {
   position: relative;
-  top: 40px;
   background-color: #2a4d6f;
   color: white;
   height: 597px;
@@ -1449,9 +1448,11 @@ height: 200px;
 
 .features .tab-pane img {
   /* border-radius: 15px; */
-  width: 510px;
+  width: 494px;
   background-color: #C0D9F2;
-  height: 610px;
+  height: 530px;
+  max-height: 100%;
+  padding-top: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -2000,10 +2001,8 @@ height: 200px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 418px;
-  height: 230px;
+  width: 100%;
   /* border-radius: 50%; */
-  border: 4px solid var(--background-color);
   margin: 0 auto;
 }
 
@@ -2351,6 +2350,7 @@ height: 200px;
   border: 2px solid #262626;
   background: #0B0B0B;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .custom-card h5 {
@@ -2403,6 +2403,7 @@ height: 200px;
   border: 2px solid #262626;
   background: #0B0B0B;
   color: #fff;
+  margin-bottom: 20px;
 }
 .custom-card-three h5 {
   text-align: center;
@@ -2415,6 +2416,7 @@ height: 200px;
     text-align: center;
     font-weight: 400;
     font-size: 14px;
+    
 }
 .custom-card-three img{
   padding-top: 15px;
@@ -2430,6 +2432,7 @@ height: 200px;
   border: 2px solid #262626;
   background: #0B0B0B;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 
