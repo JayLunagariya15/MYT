@@ -1185,9 +1185,11 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 20px 0;
+  padding: 50px 0;
 }
-
+.clients p{
+  text-align: center;
+}
 .clients .client-logo {
   display: flex;
   justify-content: center;
