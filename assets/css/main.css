@@ -962,14 +962,128 @@ section,
   inset: 0;
   z-index: 2;
 }
-
-.imaging img {
-  width: 530px;
-  height: 470px;
-  border-radius: 20px;
-  border: 1px;
+.imaging {
+  display: flex;
+  width: 1090px;
+  height:  970px;
+  top: 1303px;
+  left: 415px;
+  gap: 30px;
+  opacity: 0px;
+  flex-wrap: wrap;
+  margin: auto;
+  
 }
 
+.cards{
+  
+  width: 530px;
+  height: 470px;
+  padding: 40px 0.26px 0px 39px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 1px solid #00000051;
+  opacity: 0px;
+  
+}
+
+.card-item{
+  width: 490.74px;
+height: 430px;
+top: 40px;
+left: 39px;
+gap: 0px;
+/* border: 1px solid black; */
+opacity: 0px;
+border-radius: 0px 0px 20px 0px;
+
+}
+.item-child{
+  display: flex;
+  width: 449px;
+height:  167px;
+top: 40px;
+left: 39.92px;
+gap: 29px;
+opacity: 0px;
+/* border: 1px solid black; */
+}
+
+.item-text p{
+  font-family: Onest;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+text-align: left;
+color: #000000;
+padding-top: 10px;
+margin-bottom: 0.5rem;
+
+
+}
+.paragraph{
+  font-family: Onest;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #636363;
+
+}
+
+.image-section{
+  display: flex;
+  width: 490.74px;
+height: 250px;
+top: 220px;
+left: 39px;
+gap: 0px;
+opacity: 0px;
+/* border: 1px solid black; */
+border-radius: 0 0 20px 0;
+}
+
+
+.arrow-circle{
+  position: relative;
+
+  width: 48px;
+height: 48px;
+top: 160px;
+border-radius: 50%;
+/* left: 40px; */
+gap: 0px;
+border: 2px solid #2873BD;
+opacity: 0px;
+
+}
+.arrow-circle img {
+  position: relative;
+  width: 14px;
+height: 14px;
+top: 9px;
+    left: 15px;
+gap: 0px;
+opacity: 0px;
+/* angle: 180 deg; */
+
+}
+
+.section-img{
+  display: flex;
+  position: relative;
+  left: 16px;
+  top: 11
+  px;
+}
+.section-img img{
+border-radius: 0 0 20px 0;
+position: relative;
+left: 83px;
+top: 60px;
+height: 200px;
+
+}
 .containerr {
   position: relative;
   top: 40px;
@@ -1250,11 +1364,12 @@ section,
   padding: 0px 0px;
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.5;
+  opacity: 0.8;
   filter: grayscale(100);
   /* padding: 20px 10px; */
   /* flex: 0 0 auto; */
   /* width: 11.666667%; */
+  width: 60%;
 }
 
 .clients .client-logo img:hover {
