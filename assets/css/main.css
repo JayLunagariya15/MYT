@@ -26,7 +26,7 @@
   --default-color: #3d4348;
 
   /* Heading Color - This color is used for titles, headings and secondary elements. */
-  --heading-color: #3e5055;
+  --heading-color: #0C0C0C;
 
   /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
   --accent-color: #2873BD;
@@ -480,7 +480,7 @@ h6 {
   color: var(--default-color);
   background-color: #111111;
   font-size: 14px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -540,11 +540,12 @@ h6 {
   font-weight: bold;
   position: relative;
   color: #ffffff;
-  padding-bottom: 12px;
+  padding-bottom: 0px;
 }
 
 .footer .footer-links {
   margin-bottom: 30px;
+  margin-left: 65px;
 
 }
 
@@ -874,6 +875,8 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  padding-top: 40px;
+  margin-top: 20px;
 }
 
 /* .section-title h2:after {
@@ -892,6 +895,7 @@ section,
 .section-title p {
   margin-bottom: 0;
   margin-top: -20px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -924,12 +928,14 @@ section,
   inset: 0;
   z-index: 2;
 }
-.imaging img{
+
+.imaging img {
   width: 530px;
   height: 470px;
   border-radius: 20px;
   border: 1px;
 }
+
 .containerr {
   position: relative;
   top: 40px;
@@ -1192,9 +1198,11 @@ section,
 .clients {
   padding: 50px 0;
 }
-.clients p{
+
+.clients p {
   text-align: center;
 }
+
 .clients .client-logo {
   display: flex;
   justify-content: center;
@@ -1536,7 +1544,7 @@ section,
 }
 
 .pricing .pricing-item-two h4 {
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .pricing .pricing-item-three {
@@ -1818,9 +1826,9 @@ color: #FFFFFF;
   box-sizing: content-box;
   padding: 30px 20px 30px 20px;
   margin: 40px 30px;
-  max-height: 415px;
-  max-width: 420px;
-  border-radius: 20px 20px 0px 0px;
+  /* max-height: 415px;
+  max-width: 420px; */
+  border-radius: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
