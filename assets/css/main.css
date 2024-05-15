@@ -1286,6 +1286,7 @@ section,
 
 .features .nav-link {
   color: var(--heading-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
   border: 0;
   padding: 30px;
   transition: 0.3s;
@@ -1327,11 +1328,16 @@ section,
 }
 
 .features .nav-link.active {
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  width: 385px;
+    height: 190px;
+    background: color-mix(in srgb, var(--accent-color), transparent 92%);
 }
 
 .features .tab-pane img {
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  width: 510px;
+  background-color: #C0D9F2;
+  height: 610px;
 }
 
 /*--------------------------------------------------------------
