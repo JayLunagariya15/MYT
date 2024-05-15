@@ -208,6 +208,17 @@ border:none
 /* opacity: 0px; */
 
 }
+
+.herotwo-line p{
+  margin-top: 35px;
+  font-family: Onest;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+
+
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
