@@ -12,9 +12,10 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Onest", sans-serif, "Roboto", system-ui, -apple-system,
+  --default-font: "Onest", sans-serif;
+  /* , "Roboto", system-ui, -apple-system,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   --heading-font: "Onest", sans-serif;
   --nav-font: "Onest", sans-serif;
 }
@@ -211,7 +212,9 @@ border:none
 
 .herotwo-line p{
   margin-top: 35px;
-  font-family: Onest;
+font-family: "Onest", sans-serif;
+
+ /* font-family: var(--); */
 font-size: 18px;
 font-weight: 400;
 line-height: 27px;
@@ -1239,14 +1242,19 @@ section,
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin: 0px;
+  /* padding: 0 20px; */
 }
 
 .clients .client-logo img {
-  padding: 20px 40px;
+  padding: 0px 0px;
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.5;
   filter: grayscale(100);
+  /* padding: 20px 10px; */
+  /* flex: 0 0 auto; */
+  /* width: 11.666667%; */
 }
 
 .clients .client-logo img:hover {
