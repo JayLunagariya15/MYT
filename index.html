@@ -76,7 +76,7 @@
             </ul>
 
           </li>
-          <li><a href="index.html#pricing">Pricing</a>
+          <li><a onclick="gotoviewPort()">Pricing</a>
           </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -376,7 +376,8 @@
       </div>
 
       <!-- More Features Section -->
-      <section id="more-features" class="more-features section" style="margin-top: 100px;">
+      <section id="more-features" class="more-features section"
+        style="margin-top: 100px; background-color: #111111; padding-bottom: 50px;">
 
         <div class="container black-section">
           <div class="row">
@@ -698,9 +699,8 @@
           </div> -->
     <!-- End Service Item -->
 
-    </div>
+    
 
-    </div>
 
     </section>
 
@@ -982,43 +982,49 @@
           <div class="row">
             <div class="col-lg-4 mb-4">
               <div class="card " style="border-radius: 20px;">
-                <div style="max-height: 276px; " >
-  
-                  <img src="assets/img/testimonials/testi1.png" alt="" class="card-img-top" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-  
+                <div style="max-height: 276px; ">
+
+                  <img src="assets/img/testimonials/testi1.png" alt="" class="card-img-top"
+                    style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+
                 </div>
-                <div class="card-body" style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+                <div class="card-body"
+                  style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
                   <h6 class="card-title">Mar 01, 2024</h6>
                   <p class="card-text">Beyond the blueprint crafting your unique success structure</p>
                   <a href="" class="btn btn-sm">Read More</a>
-                 
+
                 </div>
               </div>
             </div>
             <div class="col-lg-4 mb-4">
-              <div class="card"  style="border-radius: 20px;">
-  
+              <div class="card" style="border-radius: 20px;">
+
                 <div class="" style="max-height: 276px;">
-                  <img src="assets/img/testimonials/testi2.png" alt="" class="card-img-top" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                  <img src="assets/img/testimonials/testi2.png" alt="" class="card-img-top"
+                    style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                 </div>
-                <div class="card-body" style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;" >
+                <div class="card-body"
+                  style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
                   <h6 class="card-title">Mar 01, 2024</h6>
                   <p class="card-text">Beyond the blueprint crafting your unique success structure</p>
                   <a href="" class="btn btn-sm">Read More</a>
-                 
+
                 </div>
               </div>
             </div>
             <div class="col-lg-4 mb-4">
-              <div class="card"  style="border-radius: 20px;">
+              <div class="card" style="border-radius: 20px;">
                 <div class="" style="max-height: 276px;">
-                  <img src="assets/img/testimonials/testi3.png" alt="" class="card-img-top" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                  <img src="assets/img/testimonials/testi3.png" alt="" class="card-img-top"
+                    style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                 </div>
-                <div class="card-body" style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+                <div class="card-body"
+                  style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
                   <h6 class="card-title">Mar 01, 2024</h6>
                   <p class="card-text">Beyond the blueprint crafting your unique success structure</p>
                   <a href="" class="btn btn--success btn-sm">Read More</a>
-                 
+
                 </div>
               </div>
             </div>
@@ -1187,12 +1193,12 @@
     <div class=" copyright text-left mt-4">
       <div class="container">
 
- 
-      <p>© <span>2024</span> <strong class="px-1 sitename">Xtrak. </strong><span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a class="text-white" href="#">Xtrak</a>
+
+        <p>© <span>2024</span> <strong class="px-1 sitename">Xtrak. </strong><span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a class="text-white" href="#">Xtrak</a>
+        </div>
       </div>
-    </div>
     </div>
 
   </footer>
@@ -1205,6 +1211,13 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+
+  <script>
+    function gotoviewPort() {
+      // go to the top of the window
+      window.scrollTo(0, 4470);
+    }
+  </script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
