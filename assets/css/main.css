@@ -1402,6 +1402,7 @@ height: 200px;
 
 .features .nav-link {
   color: var(--heading-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
   border: 0;
   padding: 30px;
   transition: 0.3s;
@@ -1443,11 +1444,16 @@ height: 200px;
 }
 
 .features .nav-link.active {
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  width: 385px;
+    height: 190px;
+    background: color-mix(in srgb, var(--accent-color), transparent 92%);
 }
 
 .features .tab-pane img {
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  width: 510px;
+  background-color: #C0D9F2;
+  height: 610px;
 }
 
 /*--------------------------------------------------------------
@@ -2341,4 +2347,53 @@ color: #FFFFFF;
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+
+
+
+
+.custom-card {
+  width: 380px;
+  height: 435px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+
+
+
+.custom-card-two {
+  width: 380px;
+  height: 335px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+.custom-card-three {
+  width: 380px;
+  height: 790px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+.custom-card-foure {
+  width: 380px;
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
+}
+
+.custom-card-five {
+  width: 380px;
+  height: 470px;
+  border-radius: 20px;
+  border: 2px solid #262626;
+  background: #0B0B0B;
+  color: #fff;
 }
