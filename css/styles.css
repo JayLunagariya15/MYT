@@ -172,7 +172,7 @@ nav a {
 .review-box {
     margin: 30px;
     width: 600px;
-    height: 318px;
+    height: auto;
     padding: 35px;
     border-radius: 15px;
     border: 2px solid #00000033;
