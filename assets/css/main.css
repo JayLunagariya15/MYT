@@ -18,6 +18,7 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   --heading-font: "Onest", sans-serif;
   --nav-font: "Onest", sans-serif;
+  --pricing-font: "Figtree", sans-serif;
 }
 
 /* Global Colors */
@@ -909,7 +910,7 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 /* .section-title h2:after {
@@ -961,21 +962,22 @@ section,
   inset: 0;
   z-index: 2;
 }
+
 .imaging {
   display: flex;
   width: 1090px;
-  height:  970px;
+  height: 970px;
   top: 1303px;
   left: 415px;
   gap: 30px;
   opacity: 0px;
   flex-wrap: wrap;
   margin: auto;
-  
+
 }
 
-.cards{
-  
+.cards {
+
   width: 530px;
   height: 470px;
   padding: 40px 0.26px 0px 39px;
@@ -983,106 +985,110 @@ section,
   border-radius: 20px;
   border: 1px solid #00000051;
   opacity: 0px;
-  
+
 }
 
-.card-item{
+.card-item {
   width: 490.74px;
-height: 430px;
-top: 40px;
-left: 39px;
-gap: 0px;
-/* border: 1px solid black; */
-opacity: 0px;
-border-radius: 0px 0px 20px 0px;
+  height: 430px;
+  top: 40px;
+  left: 39px;
+  gap: 0px;
+  /* border: 1px solid black; */
+  opacity: 0px;
+  border-radius: 0px 0px 20px 0px;
 
 }
-.item-child{
+
+.item-child {
   display: flex;
   width: 449px;
-height:  167px;
-top: 40px;
-left: 39.92px;
-gap: 29px;
-opacity: 0px;
-/* border: 1px solid black; */
+  height: 167px;
+  top: 40px;
+  left: 39.92px;
+  gap: 29px;
+  opacity: 0px;
+  /* border: 1px solid black; */
 }
 
-.item-text p{
+.item-text p {
   font-family: Onest;
-font-size: 22px;
-font-weight: 600;
-line-height: 33px;
-text-align: left;
-color: #000000;
-padding-top: 10px;
-margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  color: #000000;
+  padding-top: 10px;
+  margin-bottom: 0.5rem;
 
 
 }
-.paragraph{
+
+.paragraph {
   font-family: Onest;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: left;
-color: #636363;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #636363;
 
 }
 
-.image-section{
+.image-section {
   display: flex;
   width: 490.74px;
-height: 250px;
-top: 220px;
-left: 39px;
-gap: 0px;
-opacity: 0px;
-/* border: 1px solid black; */
-border-radius: 0 0 20px 0;
+  height: 250px;
+  top: 220px;
+  left: 39px;
+  gap: 0px;
+  opacity: 0px;
+  /* border: 1px solid black; */
+  border-radius: 0 0 20px 0;
 }
 
 
-.arrow-circle{
+.arrow-circle {
   position: relative;
 
   width: 48px;
-height: 48px;
-top: 160px;
-border-radius: 50%;
-/* left: 40px; */
-gap: 0px;
-border: 2px solid #2873BD;
-opacity: 0px;
+  height: 48px;
+  top: 160px;
+  border-radius: 50%;
+  /* left: 40px; */
+  gap: 0px;
+  border: 2px solid #2873BD;
+  opacity: 0px;
 
 }
+
 .arrow-circle img {
   position: relative;
   width: 14px;
-height: 14px;
-top: 9px;
-    left: 15px;
-gap: 0px;
-opacity: 0px;
-/* angle: 180 deg; */
+  height: 14px;
+  top: 9px;
+  left: 15px;
+  gap: 0px;
+  opacity: 0px;
+  /* angle: 180 deg; */
 
 }
 
-.section-img{
+.section-img {
   display: flex;
   position: relative;
   left: 16px;
-  top: 11
-  px;
+  top: 11 px;
 }
-.section-img img{
-border-radius: 0 0 20px 0;
-position: relative;
-left: 83px;
-top: 60px;
-height: 200px;
+
+.section-img img {
+  border-radius: 0 0 20px 0;
+  position: relative;
+  left: 83px;
+  top: 60px;
+  height: 200px;
 
 }
+
 .containerr {
   position: relative;
   background-color: #2a4d6f;
@@ -1672,6 +1678,7 @@ height: 200px;
 
 .pricing h2 {
   color: #ffffff;
+  font-family: "Figtree";
   font-size: 34px;
 }
 
@@ -1696,6 +1703,7 @@ height: 200px;
 .pricing .pricing-item-two {
   background-color: #0b0b0b;
   font-weight: 600;
+  font-family: var(--pricing-font);
   padding: 40px 40px;
   height: 525px;
   width: 420px;
@@ -1704,6 +1712,13 @@ height: 200px;
 
 .pricing .pricing-item-two h4 {
   color: #FFFFFF;
+  font-family: var(--pricing-font);
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 30px
 }
 
 .pricing .pricing-item-three {
@@ -1724,12 +1739,14 @@ height: 200px;
 
 .pricing h4 {
   color: var(--accent-color);
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   color: #0c0c0c;
-  font-family: var(--heading-font);
+  text-align: center;
+
+  font-family: var(--pricing-font);
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 .pricing h4 sup {
@@ -1743,13 +1760,13 @@ height: 200px;
 }
 
 .pricing .description {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   color: #3b3c45;
 }
 
 .pricing .description-two {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   color: #ffffff;
 }
@@ -1789,7 +1806,9 @@ height: 200px;
   background: var(--accent-color);
   color: var(--contrast-color);
 } */
-
+.pricing-list {
+  margin-top: 30px;
+}
 .pricing ul {
   padding: 0;
   list-style: none;
@@ -2359,14 +2378,14 @@ height: 200px;
   font-size: 22px;
 }
 
-.custom-card p{
+.custom-card p {
   padding-top: 15px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.custom-card img{
+.custom-card img {
   padding-top: 95px;
 }
 
@@ -2385,13 +2404,15 @@ height: 200px;
   padding-top: 20px;
   font-size: 22px;
 }
-.custom-card-two p{
+
+.custom-card-two p {
   padding-top: 10px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
-.custom-card-two img{
+
+.custom-card-two img {
   padding-top: 15px;
 }
 
@@ -2404,23 +2425,27 @@ height: 200px;
   color: #fff;
   margin-bottom: 20px;
 }
+
 .custom-card-three h5 {
   text-align: center;
   font-weight: 600;
   padding-top: 130px;
   font-size: 22px;
 }
-.custom-card-three p{
+
+.custom-card-three p {
   padding-top: 10px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
-    
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+
 }
-.custom-card-three img{
+
+.custom-card-three img {
   padding-top: 15px;
 }
-.custom-card-three .image-card img{
+
+.custom-card-three .image-card img {
   padding-top: 115px;
 }
 
@@ -2442,14 +2467,14 @@ height: 200px;
   font-size: 22px;
 }
 
-.custom-card-foure p{
+.custom-card-foure p {
   padding-top: 15px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.custom-card-foure img{
+.custom-card-foure img {
   padding-top: 25px;
 }
 
@@ -2471,13 +2496,13 @@ height: 200px;
   font-size: 22px;
 }
 
-.custom-card-five p{
+.custom-card-five p {
   padding-top: 15px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.custom-card-five img{
+.custom-card-five img {
   padding-top: 125px;
 }
