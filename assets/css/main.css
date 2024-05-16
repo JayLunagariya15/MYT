@@ -104,8 +104,9 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  height: 47px;
+  /* margin-right: 8px; */
+  width: 62.22px;
 }
 
 .header .logo h1 {
@@ -137,7 +138,7 @@ h6 {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 14px;
-  padding: 12px 38px;
+  padding: 12px 38px 12px 38px;
   margin: 0 0 0 30px;
   border-radius: 10px;
   transition: 0.3s;
@@ -1343,8 +1344,98 @@ height: 200px;
 --------------------------------------------------------------*/
 .clients {
   padding: 50px 0;
+  margin-bottom: 40px;
+}
+ 
+.black-section{
+  padding-top: 100px;
+
 }
 
+.black-textarea{
+  justify-content: center;
+  /* width: 638px; */
+  height: 160px;
+  top: 78px;
+  left: 641px;
+  gap: 20px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* margin: auto;
+   */
+   /* margin-top: 100px; */
+   /* padding-top: 70px; */
+  align-items: center;
+  flex-direction:column;
+  /* text-align: center; */
+  
+}
+
+.firstline{
+  width: 86px;
+height: 27px;
+gap: 0px;
+opacity: 0px;
+font-family: Onest;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+text-align: center;
+margin: 0 auto;
+}
+
+
+.secondline{
+  /* width: 542px;
+height: 24px; */
+gap: 0px;
+opacity: 0px;
+display: flex;
+font-family: Onest;
+font-size: 34px;
+font-weight: 600;
+line-height: 43.35px;
+/* text-align: center; */
+color: #FFFFFF;
+justify-content: center;
+}
+.secondline img{
+  position: relative;
+    bottom: 13px;
+    height: 32px;
+    right: 4px;
+}
+
+.linethree{
+  display: flex;
+  width: 638px;
+height: 54px;
+gap: 0px;
+opacity: 0px;
+font-family: Onest;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+}
+.blacksec-btn{
+  text-align: center;
+  padding: 30px
+}
+
+.blacksec-btn button{
+  padding: 15px 50px;
+
+
+}
+.black-row{
+  padding-top: 100px;
+}
 .clients p {
   text-align: center;
 }
@@ -1451,7 +1542,25 @@ height: 200px;
   background-color: #C0D9F2;
   height: 530px;
   max-height: 100%;
-  padding-top: 20px;
+  padding-top: 48px;
+}
+.mobile-section{
+  width:  1320px;
+height: 610px;
+top: 3995px;
+/* left: 300px; */
+/* gap: 20px; */
+opacity: 0px;
+
+}
+.google-section{
+  font-family: Onest;
+font-size: 34px;
+font-weight: 600;
+line-height: 43.35px;
+text-align: center;
+color: #0C0C0C;
+;
 }
 
 /*--------------------------------------------------------------
@@ -2481,3 +2590,5 @@ height: 200px;
 .custom-card-five img{
   padding-top: 125px;
 }
+
+
