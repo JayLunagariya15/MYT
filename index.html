@@ -40,6 +40,22 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- <style>
+    .body::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .body {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+  </style>
+ -->
+
+
   <!-- =======================================================
   * Template Name: QuickStart
   * Template URL: https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/
@@ -52,7 +68,7 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    <div class="container-fluid container-xxl position-relative d-flex align-items-center">
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -171,39 +187,50 @@
 
         <div class="row gy-4 hero-section">
 
-          <div class="col-lg-6 content container-xl " data-aos="fade-up" data-aos-delay="100">
-            <!-- <p class="who-we-are">Who We Are</p> -->
-            <h3 style="color: #ffffff;">MYT — ONE SIMPLE APP <br />FOR
-              ALL YOUR BOOKKEEPING NEEDS.</h3><br>
+          <div class="col-lg-6  container-xl d-flex align-items-center justify-content-center flex-column "
+            data-aos="fade-up" data-aos-delay="100">
 
-            <p>
-              <i class="bi bi-check"></i> Intuitive, comprehensive, and innovative tax app.
-            </p>
-            <p>
-              <i class="bi bi-check"></i> Expenses stored securely and accessible anywhere.
-            </p>
-            <p>
-              <i class="bi bi-check"></i> Submitting tax returns made easy.
-            </p>
-            <p>
-              <i class="bi bi-check"></i> Time saver and stress-free.
-            </p>
-            <!-- <p>
+            <div>
+
+
+              <!-- <p class="who-we-are">Who We Are</p> -->
+              <h3 style="color: #ffffff;">MYT — ONE SIMPLE APP <br />FOR
+                ALL YOUR BOOKKEEPING NEEDS.</h3><br>
+
+              <p>
+                <i class="bi bi-check"></i> Intuitive, comprehensive, and innovative tax app.
+              </p>
+              <p>
+                <i class="bi bi-check"></i> Expenses stored securely and accessible anywhere.
+              </p>
+              <p>
+                <i class="bi bi-check"></i> Submitting tax returns made easy.
+              </p>
+              <p>
+                <i class="bi bi-check"></i> Time saver and stress-free.
+              </p>
+
+              <!-- <p>
               get your free month of bookkeeping , valued at $299.
             </p> -->
-            <div class="btns">
-              <a class="getstarted" onclick="gotoviewPort()"><button>START YOUR PLAN!</button></a>
-              <!-- <a href="#" class=" bookdemo"><button>BOOK A DEMO </button> </a> -->
+              <div class="btns">
+                <a class="getstarted" onclick="gotoviewPort()"><button>START YOUR PLAN!</button></a>
+                <!-- <a href="#" class=" bookdemo"><button>BOOK A DEMO </button> </a> -->
+              </div>
+
             </div>
           </div>
 
-          <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-4">
-              <div class="col-lg-6">
-                <img src="./images/landing1.png" class="img-fluid" alt="">
-              </div>
-              <div class="col-lg-6">
-                <!-- <div class="row gy-4">
+
+
+          <div class="col-lg-6 about-images d-flex align-items-center justify-content-center flex-column"
+            data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-8">
+              <img src="./images/landing1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6">
+              <!-- <div class="row gy-4">
                   <div class="col-lg-12">
                     <img src="assets/img/about-company-2.jpg" class="img-fluid" alt="">
                   </div>
@@ -211,7 +238,7 @@
                     <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
                   </div>
                 </div> -->
-              </div>
+
             </div>
 
           </div>
@@ -219,92 +246,50 @@
         </div>
 
       </div>
-    </section><!-- /About Section -->
+    </section>
 
-    <!-- Clients Section -->
     <section id="clients" class="clients section">
 
       <div class="container  herotwo-line" data-aos="fade-up">
         <p>HMRC RECOGNISED FOR MAKING TAX DIGITAL AND <strong> AWARD WINNING!</strong></p>
-        <div class="row gy-4">
+        <div class="row d-flex align-items-center justify-content-center  mt-5">
 
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
+          <div class="col-xl-2 col-md-3 col-6 ">
             <img src="assets/img/award/one.jpg" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/award/two.jpg" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/award/three.jpg" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/award/four.jpg" class="img-fluid" alt="">
-          </div> -->
-          <!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/award/five.jpg" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/award/six.jpg" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
         </div>
 
-        <!-- <div class="row gy-4"> -->
-
-        <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/c9.png" class="img-fluid" alt="">
-          </div> -->
-        <!-- End Client Item -->
-
-        <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/c6.png" class="img-fluid" alt="">
-          </div> -->
-        <!-- End Client Item -->
-
-        <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/c2.png" class="img-fluid" alt="">
-          </div> -->
-        <!-- End Client Item -->
-
-        <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/c10.png" class="img-fluid" alt="">
-          </div> -->
-        <!-- End Client Item -->
-
-        <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/c11.png" class="img-fluid" alt="">
-          </div> -->
-        <!-- End Client Item -->
-
-        <!-- <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/c12.png" class="img-fluid" alt="">
-          </div> -->
-        <!-- End Client Item -->
-
-        <!-- </div> -->
-
       </div>
 
-    </section><!-- /Clients Section -->
+    </section>
 
-    <!-- Features Section -->
     <section id="features" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <p>UNIFIED PLATFORM</p>
         <h2>Your All In one Accounting <br />Solution with My T</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting has been<br /> the industrys standard
           dummy
           text
           ever since</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
         <div class="imaging">
@@ -384,13 +369,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="cards"></div>
-          <div class="cards"></div>
-          <div class="cards"></div> -->
-          <!-- <img src="assets/img/features-1.jpg" alt="" />
-          <img src="assets/img/features-1.jpg" alt="" />
-          <img src="assets/img/features-1.jpg" alt="" />
-          <img src="assets/img/features-1.jpg" alt="" /> -->
+
 
         </div>
       </div>
@@ -404,7 +383,7 @@
             <div class="firstline">Why my T</div>
             <div class="secondline">One and only for you <img src="assets/img/64b11864635cb0e2d0e23473_new-svg-13 1.png"
                 alt=""></div>
-            <div class="linethree">YOUR ALL-IN-ONE ACCOUNTING SOLUTION</div>
+            <div class="linethree text-center">YOUR ALL-IN-ONE ACCOUNTING SOLUTION</div>
 
           </div>
           <div class="row black-row">
@@ -470,16 +449,15 @@
         <div class="row justify-content-center d-flex">
 
           <h2 class="text-center " style="font-weight: 600; margin-top: 40px;"> GOT QUESTIONS?<br />
-            WE'VE GOT<br />ANSWERS.</h2>
-          <p class="text-center" style="padding-bottom: 20px;">We've compiled a list of the most frequently asked<br />
+            WE'VE GOT ANSWERS.</h2>
+          <p class="text-center">We've compiled a list of the most frequently asked<br />
             questions, to help you get started. If you need more<br /> information, please don't hesitate to contact us.
           </p>
         </div>
         <div class="col-lg-10 d-flex align-items-center mobile-section">
           <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
             <li class="nav-item">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                <!-- <i class="bi bi-binoculars"></i> -->
+              <a class="nav-link  show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                 <div>
                   <h4 class="d-none d-lg-block">WHO WOULD BENEFIT FROM USING MYT? </h4>
                   <p>
@@ -491,7 +469,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                <!-- <i class="bi bi-box-seam"></i> -->
                 <div>
                   <h4 class="d-none d-lg-block">WHAT ARE THE DEVICES THAT CAN I USE TO ACCESS MYT?
                   </h4>
@@ -502,37 +479,27 @@
                 </div>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                <!-- <i class="bi bi-brightness-high"></i> -->
-                <div>
-                  <h4 class="d-none d-lg-block">Lorem Ipsum is simply dummy</h4>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                  </p>
+          </ul>
+          <div class="col-lg-6">
+
+
+            <div class="tab-content d-flex align-items-center justify-content-center" data-aos="fade-up"
+              data-aos-delay="200">
+              <div>
+                <div class="tab-pane fade active show" id="features-tab-1">
+                  <img src="assets/img/phone.svg" alt="" class="img-fluid">
                 </div>
-              </a>
-            </li>
-          </ul>
-          <ul class="col-lg-6" style="width: 42%; height: 506px;">
-            <li>
-
-              <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-                <div>
-                  <div class="tab-pane fade active show" id="features-tab-1">
-                    <img src="assets/img/phone.svg" alt="" class="img-fluid">
-                  </div>
-                </div><!-- End Tab Content Item -->
+              </div><!-- End Tab Content Item -->
 
 
-              </div>
-            </li>
-          </ul>
+            </div>
+
+          </div>
 
 
           <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
             <li class="nav-item">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <a class="nav-link  show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                 <!-- <i class="bi bi-binoculars"></i> -->
                 <div>
                   <h4 class="d-none d-lg-block">HOW DO I GET STARTED AS A NEW USER?
@@ -546,24 +513,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" style="height: 220px;">
                 <!-- <i class="bi bi-box-seam"></i> -->
                 <div>
                   <h4 class="d-none d-lg-block">IS YOUR ACCOUNTING SOFTWARE SECURE?</h4>
                   <p>
                     We take privacy and security very seriously. Our accounting app has been carefully designed to keep
                     your information safe.
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                <!-- <i class="bi bi-brightness-high"></i> -->
-                <div>
-                  <h4 class="d-none d-lg-block">Lorem Ipsum is simply dummy </h4>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   </p>
                 </div>
               </a>
@@ -644,7 +600,7 @@
         <h2>Services</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div> -->
-    <!-- End Section Title -->
+
     <!-- 
       <div class="container">
 
@@ -740,7 +696,9 @@
     </section>
 
 
-    <div class="row justify-content-center gy-4 d-flex" style="margin-top: 80px; margin-bottom: 100px;">
+
+
+    <div class="row justify-content-center gy-4 d-flex container-fluid" style="margin-top: 80px; margin-bottom: 100px;">
       <div class="d-flex justify-content-center google-section">
         DON'T JUST TAKE OUR WORD FOR IT.<br />
         GET REAL INSIGHTS FROM REAL CUSTOMERS!
@@ -751,6 +709,10 @@
         <p>Google rating score:4.9 of 5,based on 15 reviews
         </p>
       </div>
+
+
+
+
       <div class="row d-flex justify-content-center">
         <div class="col-sm-2">
           <div class="card">
@@ -840,83 +802,86 @@
         <p>Time is money and MyT will save you both! Choose the subscription plan<br /> that works best for you, and
           upgrade
           or downgrade whenever you want<br /> without losing any data.</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
         <div class="row gy-4">
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item-one">
+            <div class="pricing-item-one d-flex flex-column justify-content-between">
               <h2><strong>STANDARD</strong></h2>
-              <!-- <p class="description">Essential features to boost efficiency and<br /> streamline operations</p> -->
-              <h4>£ 10.00 Euro</h4>
-              <div class="pricing-list">
-                <div style="text-align: center;">
-                  <p>
-                    AI analytics up to
-                  </p>
-                  <p>75 documents p/month
-                  </p>
-                </div>
-                <!-- <ul>
-                  <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
-                  <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
-                  <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
-                  <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
+              <div>
 
-                </ul> -->
+                <!-- <p class="description">Essential features to boost efficiency and<br /> streamline operations</p> -->
+                <h4>£ 10.00 Euro</h4>
+                <div class="pricing-list">
+                  <div style="text-align: center;">
+                    <p>
+                      AI analytics up to
+                    </p>
+                    <p>75 documents p/month
+                    </p>
+                  </div>
+
+                </div>
               </div>
               <a href="#" class="cta-btn">TRY IT </a>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item-two featured">
-              <!-- <p class="popular">Popular</p> -->
+            <div class="pricing-item-two featured d-flex flex-column justify-content-between">
               <h2><strong>PLUS</strong></h2>
-              <!-- <p class="description-two">Essential features to boost efficiency and<br /> streamline operations</p> -->
-              <h4>£ 20.00 Euro</h4>
-              <div class="pricing-list">
-                <div style="text-align: center;">
-                  <p>
-                    AI analytics up to
-                  </p>
-                  <p>150 documents p/month
-                  </p>
-                </div>
-                <!-- <ul>
+              <div>
+                <!-- <p class="popular">Popular</p> -->
+
+                <!-- <p class="description-two">Essential features to boost efficiency and<br /> streamline operations</p> -->
+                <h4>£ 20.00 Euro</h4>
+                <div class="pricing-list">
+                  <div style="text-align: center;">
+                    <p>
+                      AI analytics up to
+                    </p>
+                    <p>150 documents p/month
+                    </p>
+                  </div>
+                  <!-- <ul>
                   <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
                   <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
                   <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
                   <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
 
                 </ul> -->
+                </div>
               </div>
               <a href="#" class="cta-btn-two">TRY IT</a>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item-three">
+            <div class="pricing-item-three d-flex flex-column justify-content-between">
               <h2><strong>Pro</strong></h2>
-              <!-- <p class="description">Essential features to boost efficiency and<br /> streamline operations</p> -->
-              <h4>£ 30.00 Euro</h4>
-              <div class="pricing-list">
-                <div style="text-align: center;">
-                  <p>
-                    AI analytics up to
-                  </p>
-                  <p>300 documents p/month
-                  </p>
-                </div>
-                <!-- <ul>
+              <div>
+
+                <!-- <p class="description">Essential features to boost efficiency and<br /> streamline operations</p> -->
+                <h4>£ 30.00 Euro</h4>
+                <div class="pricing-list">
+                  <div style="text-align: center;">
+                    <p>
+                      AI analytics up to
+                    </p>
+                    <p>300 documents p/month
+                    </p>
+                  </div>
+                  <!-- <ul>
                     <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
                     <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
                     <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
                     <li><i class="bi bi-check"></i> <span>Lorem ipsum is simply dummy text</span></li>
 
                   </ul> -->
+                </div>
               </div>
               <a href="#" class="cta-btn">TRY IT</a>
             </div>
@@ -935,7 +900,7 @@
     <!-- <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
       </div> -->
-    <!-- End Section Title -->
+
     <!-- 
       <div class="container">
 
@@ -1036,7 +1001,7 @@
         <h2>Our Blogs</h2>
         <p>We will give you a great pulse on what's hot in housing, rental <br />markets and many more about properties
         </p>
-      </div><!-- End Section Title -->
+      </div>
 
 
       <section id="gallery">
@@ -1194,10 +1159,10 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative">
+  <footer id="footer" class="footer position-relative mt-5">
 
     <div class="container footer-top">
-      <div class="row gy-4" style="margin-bottom: 130px;">
+      <div class="row gy-4" style="margin-bottom: 80px;">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <img src="assets/img/download.svg" alt="">
@@ -1216,7 +1181,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-3 col-md-3 footer-links">
           <h4>Product</h4>
           <ul>
             <li><a href="#">Home</a></li>
@@ -1226,7 +1191,7 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-3 col-md-3 footer-links">
           <h4>Compnay</h4>
           <ul>
             <li><a href="#">About us</a></li>
@@ -1256,9 +1221,17 @@
       <div class="container">
 
 
-        <p>© <span>2024</span> <strong class="px-1 sitename">Xtrak. </strong><span>All Rights Reserved</span></p>
+
+        <div>
+
+
+          <p>© <span>2024</span> <strong class="px-1 sitename">Xtrak. </strong><span>All Rights Reserved</span></p>
+        </div>
         <div class="credits">
-          Designed by <a class="text-white" href="#">Xtrak</a>
+
+
+          Designed by
+          <a class="text-white" href="#">Xtrak</a>
         </div>
       </div>
     </div>

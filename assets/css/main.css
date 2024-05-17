@@ -602,13 +602,13 @@ h6 {
 }
 
 .footer .footer-links ul li {
-  padding: 10px 0;
+  padding: 14px 0;
   display: flex;
   align-items: center;
 }
 
 .footer .footer-links ul li:first-child {
-  padding-top: 0;
+  margin-top: 20px;
 }
 
 .footer .footer-links ul a {
@@ -740,7 +740,7 @@ h6 {
 }
 
 .footer .credits {
-  margin-top: 25px;
+  margin-top: 18px;
   background-color: #111111;
   color: #ffffff;
   font-size: 18px;
@@ -1095,7 +1095,6 @@ section,
   background-color: #2a4d6f;
   color: white;
   height: 597px;
-  width: 1920px;
 }
 
 .hero-section {
@@ -1352,13 +1351,13 @@ section,
   padding: 50px 0;
   margin-bottom: 40px;
 }
- 
-.black-section{
+
+.black-section {
   padding-top: 100px;
 
 }
 
-.black-textarea{
+.black-textarea {
   justify-content: center;
   /* width: 638px; */
   height: 160px;
@@ -1371,77 +1370,81 @@ section,
   text-align: center;
   /* margin: auto;
    */
-   /* margin-top: 100px; */
-   /* padding-top: 70px; */
+  /* margin-top: 100px; */
+  /* padding-top: 70px; */
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
   /* text-align: center; */
-  
+
 }
 
-.firstline{
+.firstline {
   width: 86px;
-height: 27px;
-gap: 0px;
-opacity: 0px;
-font-family: Onest;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: center;
-color: #FFFFFF;
-text-align: center;
-margin: 0 auto;
+  height: 27px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Onest;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
-.secondline{
+.secondline {
   /* width: 542px;
 height: 24px; */
-gap: 0px;
-opacity: 0px;
-display: flex;
-font-family: Onest;
-font-size: 34px;
-font-weight: 600;
-line-height: 43.35px;
-/* text-align: center; */
-color: #FFFFFF;
-justify-content: center;
-}
-.secondline img{
-  position: relative;
-    bottom: 13px;
-    height: 32px;
-    right: 4px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  font-family: Onest;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 43.35px;
+  /* text-align: center; */
+  color: #FFFFFF;
+  justify-content: center;
 }
 
-.linethree{
-  display: flex;
-  width: 638px;
-height: 54px;
-gap: 0px;
-opacity: 0px;
-font-family: Onest;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: center;
-color: #FFFFFF;
+.secondline img {
+  position: relative;
+  bottom: 13px;
+  height: 32px;
+  right: 4px;
 }
-.blacksec-btn{
+
+.linethree {
+  display: flex;
+
+  height: 54px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Onest;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.blacksec-btn {
   text-align: center;
   padding: 30px
 }
 
-.blacksec-btn button{
+.blacksec-btn button {
   padding: 15px 50px;
 
 
 }
-.black-row{
+
+.black-row {
   padding-top: 100px;
 }
+
 .clients p {
   text-align: center;
 }
@@ -1460,7 +1463,7 @@ color: #FFFFFF;
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.8;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
   /* padding: 20px 10px; */
   /* flex: 0 0 auto; */
   /* width: 11.666667%; */
@@ -1546,27 +1549,29 @@ color: #FFFFFF;
   /* border-radius: 15px; */
   width: 494px;
   background-color: #C0D9F2;
-  height: 530px;
+  height: 492px;
   max-height: 100%;
   padding-top: 48px;
 }
-.mobile-section{
-  width:  1320px;
-height: 610px;
-top: 3995px;
-/* left: 300px; */
-/* gap: 20px; */
-opacity: 0px;
+
+.mobile-section {
+  width: 1320px;
+  height: 530px;
+  top: 3995px;
+  /* left: 300px; */
+  /* gap: 20px; */
+  opacity: 0px;
 
 }
-.google-section{
+
+.google-section {
   font-family: Onest;
-font-size: 34px;
-font-weight: 600;
-line-height: 43.35px;
-text-align: center;
-color: #0C0C0C;
-;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 43.35px;
+  text-align: center;
+  color: #0C0C0C;
+  ;
 }
 
 /*--------------------------------------------------------------
@@ -1918,6 +1923,7 @@ color: #0C0C0C;
 .pricing-list {
   margin-top: 30px;
 }
+
 .pricing ul {
   padding: 0;
   list-style: none;
@@ -2100,7 +2106,7 @@ color: #0C0C0C;
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  --background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
+  --background-color: var(--background-color);
 }
 
 .testimonials .testimonial-item {
@@ -2615,5 +2621,3 @@ color: #0C0C0C;
 .custom-card-five img {
   padding-top: 125px;
 }
-
-
