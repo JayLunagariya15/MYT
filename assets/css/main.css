@@ -1842,7 +1842,7 @@ height: 24px; */
   color: #0c0c0c;
   font-weight: 600;
   height: 525px;
-  width: 420px;
+  /* width: 420px; */
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -1862,7 +1862,7 @@ height: 24px; */
   font-family: var(--pricing-font);
   padding: 40px 40px;
   height: 525px;
-  width: 420px;
+  /* width: 420px; */
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -1885,7 +1885,7 @@ height: 24px; */
   color: #0c0c0c;
   font-weight: 600;
   height: 525px;
-  width: 420px;
+  /* width: 420px; */
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
