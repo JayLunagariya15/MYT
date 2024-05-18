@@ -1527,6 +1527,12 @@ height: 24px; */
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .features .nav-link {
+    margin: 10px 0px;
+  }
+}
+
 .features .nav-link i {
   background-color: var(--contrast-color);
   color: var(--accent-color);
@@ -1559,8 +1565,8 @@ height: 24px; */
 }
 
 .features .nav-link.active {
-  width: 385px;
-  height: 190px;
+  width: 100%;
+  height: auto;
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
 }
 
@@ -1576,11 +1582,26 @@ height: 24px; */
 .mobile-section {
   width: 1320px;
   height: 530px;
-  top: 3995px;
+  /* top: 3995px; */
   /* left: 300px; */
   /* gap: 20px; */
   opacity: 0px;
 
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-section {
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .mobile-section {
+    width: auto;
+    height: auto;
+  }
 }
 
 .google-section {
@@ -1806,7 +1827,7 @@ height: 24px; */
   background-color: #2a4d6f;
   color: #ffffff;
   font-size: 18px;
-  padding: 20px 30px 150px 0px;
+  padding: 20px 0px 150px 0px;
 }
 
 .pricing h2 {
@@ -1823,6 +1844,8 @@ height: 24px; */
   height: 525px;
   width: 420px;
   border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pricing .pricing-item-one h2 {
@@ -1841,6 +1864,8 @@ height: 24px; */
   height: 525px;
   width: 420px;
   border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pricing .pricing-item-two h4 {
@@ -1862,6 +1887,8 @@ height: 24px; */
   height: 525px;
   width: 420px;
   border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pricing h3 {
@@ -2503,6 +2530,8 @@ height: 24px; */
   background: #0B0B0B;
   color: #fff;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .custom-card h5 {
@@ -2530,6 +2559,8 @@ height: 24px; */
   border: 2px solid #262626;
   background: #0B0B0B;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .custom-card-two h5 {
@@ -2558,6 +2589,8 @@ height: 24px; */
   background: #0B0B0B;
   color: #fff;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .custom-card-three h5 {
@@ -2591,6 +2624,8 @@ height: 24px; */
   background: #0B0B0B;
   color: #fff;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -2619,6 +2654,8 @@ height: 24px; */
   border: 2px solid #262626;
   background: #0B0B0B;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
