@@ -135,6 +135,20 @@ h6 {
   line-height: 22.95px;
 }
 
+
+
+@media (min-width: 768px) {
+  .loginbutton2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginbutton {
+    display: none;
+  }
+}
+
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
@@ -159,7 +173,7 @@ h6 {
 
   .header .btn-getstarted {
     order: 2;
-    margin: 0 15px 0 0;
+    margin: 8px 15px 0 0;
     padding: 6px 15px;
   }
 
@@ -967,8 +981,7 @@ section,
 
 .imaging {
   display: flex;
-  width: 1090px;
-  height: 970px;
+  max-width: 1090px;
   top: 1303px;
   left: 415px;
   gap: 30px;
@@ -980,7 +993,7 @@ section,
 
 .cards {
 
-  width: 530px;
+  max-width: 530px;
   height: 470px;
   padding: 40px 0.26px 0px 39px;
   gap: 0px;
@@ -991,7 +1004,7 @@ section,
 }
 
 .card-item {
-  width: 490.74px;
+  width: auto;
   height: 430px;
   top: 40px;
   left: 39px;
@@ -1004,7 +1017,6 @@ section,
 
 .item-child {
   display: flex;
-  width: 449px;
   height: 167px;
   top: 40px;
   left: 39.92px;
@@ -1038,7 +1050,7 @@ section,
 
 .image-section {
   display: flex;
-  width: 490.74px;
+  max-width: 490.74px;
   height: 250px;
   top: 220px;
   left: 39px;
@@ -1089,6 +1101,15 @@ section,
   top: 60px;
   height: 200px;
 
+}
+
+@media (max-width: 768px) {
+  .section-img img {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+  }
 }
 
 .containerr {

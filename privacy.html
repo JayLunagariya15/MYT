@@ -14,10 +14,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
 
 
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
     <style>
         body {
@@ -50,7 +62,53 @@
 
 <body>
 
-    <div class="container mt-5 ">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xxl position-relative d-flex align-items-center justify-content-between">
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+
+                    <li class="dropdown"><a href="#"><span>Services</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span> Resources</span><i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+
+
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#" onclick="gotoviewPort()"><span>Pricing</span></a>
+                    </li>
+                    <li class="loginbutton2"><a href="#" class=""><span>Log In</span></a>
+                    </li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a href="index.html" class="logo d-flex align-items-center mx-auto mylogo">
+                <img src="assets/img/MyTlogo.svg" alt="">
+                <h1 class="sitename"></h1>
+            </a>
+
+            <a href="#" class="loginbutton">Log In </a>
+            <a class="btn-getstarted " style="font-weight: 600;" onclick="gotoviewPort()">START YOUR PLAN!</a>
+
+        </div>
+    </header>
+
+    <div class="container  " style="margin-top: 80px;">
         <h1>PRIVACY POLICY</h1>
         <p>Thank you for selecting the Services offered by MYT (referred to as “we”, “our”, or “us”). Review these Terms
             of Service (“Agreement”) thoroughly. This Agreement is a legal agreement between you and MYT. By accepting
@@ -214,6 +272,15 @@
             making a claim against MYT arising out of this Agreement shall bring such claim exclusively in the English
             courts and subject to the limitations and exclusions of liabilities provided for in this Agreement.</p>
     </div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  
 
 </body>
 
