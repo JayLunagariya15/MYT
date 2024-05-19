@@ -1116,12 +1116,30 @@ section,
   position: relative;
   background-color: #2a4d6f;
   color: white;
-  height: 597px;
+  min-height: 597px;
 }
 
 @media (max-width: 768px) {
   .containerr {
     height: 900px;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerr {
+    height: 750px;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerr {
+    height: 800px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .containerr {
+    height: 400px;
   }
 }
 
@@ -1139,6 +1157,12 @@ section,
 @media (max-width: 768px) {
   .hero-section {
     top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    top: 50px;
   }
 }
 
@@ -2697,4 +2721,10 @@ height: 24px; */
 
 .custom-card-five img {
   padding-top: 125px;
+}
+
+
+#carouselHero{
+  max-width: 600px;
+  object-fit: cover;
 }
